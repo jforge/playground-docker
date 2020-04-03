@@ -20,13 +20,12 @@ Login/Passwort: admin/admin
 
 ## Sonar-scanner besorgen
 
-```
-wget https://sonarsource.bintray.com/Distribution/sonar-scanner-cli/sonar-scanner-2.8.zip
-```
-
+- Sonar Scanner: https://docs.sonarqube.org/latest/analysis/scan/sonarscanner/
+- An einem geeigneten Ort entpacken, z.B. ~/opt/sonar-scanner
+- ggf. conf/sonar-scanner.properties ändern (global settings, e.g. for server url)
 - in Ordner der zu prüfenden Source wechseln
 - sonar-project.properties in sonar-project.local.properties umbennen
-- Eintrag sonar.host.url=127.0.0.1:9000 ändern
+- Eintrag sonar.host.url=http://127.0.0.1:9000 ändern
 
 Datei "sonar-project.properties" darf nicht existieren, da immer diese Datei verwendet wird, auch wenn man einen andere Config angibt. (siehe nächster Punkt)
 
