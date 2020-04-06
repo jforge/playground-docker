@@ -20,6 +20,9 @@ Login/Passwort: admin/admin
 
 ## Sonar-scanner besorgen
 
+- Sonar-Scanner via Docker: https://hub.docker.com/search?q=sonar-scanner&type=image
+
+Alternativ:
 - Sonar Scanner: https://docs.sonarqube.org/latest/analysis/scan/sonarscanner/
 - An einem geeigneten Ort entpacken, z.B. ~/opt/sonar-scanner
 - ggf. conf/sonar-scanner.properties ändern (global settings, e.g. for server url)
